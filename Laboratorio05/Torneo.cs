@@ -7,7 +7,6 @@
             if (equipos.Length < 2 || !isPowerOf2(equipos.Length))
             {
                 throw new Exception("La cantidad de equipos debe ser una potencia de dos y deben existir al menos dos equipos");
-
             }
             int newSize = (int)Math.Log2(equipos.Length) + 1;
 
