@@ -18,7 +18,7 @@ namespace Laboratorio05
         public static Information GetInformation()
         {
             if (Instance == null)
-                Instance = new Information("", "", "");
+                Instance = new Information("José Andrés García ELías", "1106423", "4");
 
             return Instance;
         }

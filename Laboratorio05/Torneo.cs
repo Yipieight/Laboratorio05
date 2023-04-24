@@ -10,6 +10,7 @@ namespace Laboratorio05
     {
         public static Equipo[][] SimularTorneo(Equipo[] equipos)
         {
+
             return null;
         }
     }
